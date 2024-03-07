@@ -18,9 +18,8 @@ The `rotations` field means how many loop passes are written in the rotation cod
 ```json
 "rotations": 5
 ```
----
 If the `rotations` field is not mentioned in the json, then it must be equal to `4` for this team
-
+---
 Sometimes there is a field `rules` that stores the list, the value `two-targets` means that there are two enemies in the rotation instead of one as usual and the total DPS will have to be divided by 2.
 ```json
 "rules": ["two-targets"]
