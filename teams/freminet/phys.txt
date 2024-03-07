@@ -1,0 +1,50 @@
+freminet char lvl=90/90 cons=6 talent=9,9,9;
+freminet add weapon="prototypearchaic" refine=5 lvl=90/90;
+freminet add set="paleflame" count=4;
+freminet add set="bloodstainedchivalry" count=1;
+freminet add stats hp=4780 atk=311 atk%=0.466 phys%=0.583 cr=0.311 ; #main
+freminet add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102 em=39.64 cr=0.2648 cd=0.7944 ;
+
+furina char lvl=90/90 cons=0 talent=9,9,9;
+furina add weapon="favoniussword" refine=3 lvl=90/90;
+furina add set="goldentroupe" count=4;
+furina add stats def=39 hp=5497 hp%=1.171 atk=311 er=0.45499999999999996 em=60 cr=0.405 cd=1.181;
+
+fischl char lvl=90/90 cons=6 talent=9,9,9;
+fischl add weapon="alleyhunter" refine=1 +params=[stacks=10] lvl=90/90;
+fischl add set="gt" count=4;
+fischl add stats hp=4780 atk=311 atk%=0.466 electro%=0.466 cr=0.311 ; #main
+fischl add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.5204 em=39.64 cr=0.331 cd=0.7944;
+
+mika char lvl=90/90 cons=6 talent=9,9,9;
+mika add weapon="favoniuslance" refine=3 lvl=90/90;
+mika add set="noblesseoblige" count=4;
+mika add stats hp=4780 atk=311 er=0.518 hp%=0.466 heal=0.359 ; #main
+mika add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=1.551 em=79.28 cr=0.3972 cd=0.1324;
+
+target lvl=100 resist=0.1 hp=9999999;
+energy every interval=480,720 amount=1;
+
+#sim config
+options swap_delay=4 debug=true iteration=100 workers=30 mode=sl;
+active furina;
+
+for let i=0; i<4; i=i+1 {
+
+  furina skill, dash, burst;
+  mika skill, burst;
+   if .amy.skill.ready { 
+    amy skill, attack; 
+  } else { 
+    amy attack:2, burst; 
+  }
+  freminet skill, burst,
+           attack:2, skill, skill,
+           attack:2, skill, attack:2, skill,  #First skill for 4 stack Pers, 2nd skill starts Pers Time
+           attack:2, skill, attack:2, skill,
+           attack:3, skill;
+           
+  
+}
+
+# Furina EdQ > Mika EQ > Fischl E N1 / N2 Q > Frem EQ N2 EE 4N2E N3 E

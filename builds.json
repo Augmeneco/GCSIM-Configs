@@ -1,0 +1,512 @@
+{
+    "alhaitham": {
+        "teams": [
+            {
+                "id": "quickenbloom",
+                "name": "Alhaitham, Kuki Shinobu, Yelan, Nahida",
+                "rotations": 5
+            },
+            {
+                "id": "furina",
+                "name": "Alhaitham, Kuki Shinobu, Furina, Nahida",
+                "rotations": 4
+            }
+        ]
+    },
+    "wanderer": {
+        "teams": [
+            {
+                "id": "zhongli_shield",
+                "name": "Wanderer, Zhongli, Bennett, Faruzan",
+                "rotations": 5
+            },
+            {
+                "id": "layla_shield",
+                "name": "Wanderer, Layla, Bennett, Faruzan",
+                "rotations": 5
+            }
+        ]
+    },
+    "nahida": {
+        "teams": [
+            {
+                "id": "offield_nahida",
+                "name": "Alhaitham, Kuki Shinobu, Yelan, Nahida",
+                "rotations": 5
+            }
+        ]
+    },
+    "nilou": {
+        "teams": [
+            {
+                "id": "nilou-dmc",
+                "name": "Nilou, Kokomi, Nahida, Dendro Traveler",
+                "rules": [
+                    "two-targets"
+                ],
+                "rotations": 5
+            }
+        ]
+    },
+    "cyno": {
+        "teams": [
+            {
+                "id": "quickenbloom",
+                "name": "Cyno, Kuki Shinobu, Yelan, Nahida"
+            },
+            {
+                "id": "furina",
+                "name": "Cyno, Baizhu, Fischl, Furina"
+            }
+        ]
+    },
+    "tighnari": {
+        "teams": [
+            {
+                "id": "furina-kuki-nahi",
+                "name": "Tighnari, Kuki Shinobu, Furina, Nahida",
+                "rotations": 4
+            },
+            {
+                "id": "yae-kuki-nahi",
+                "name": "Tighnari, Kuki Shinobu, Yae Miko, Nahida",
+                "rotations": 5
+            },
+            {
+                "id": "yae-bai-nahi",
+                "name": "Tighnari, Baizhu, Yae Miko, Nahida"
+            }
+        ]
+    },
+    "yelan": {
+        "teams": [
+            {
+                "id": "hutao-2hydro",
+                "name": "Hutao, Zhongli, Yelan, Xingqiu",
+                "rotations": 1
+            },
+            {
+                "id": "hypercarry",
+                "name": "Yelan, Zhongli, Xingqiu, Kazuha",
+                "rotations": 5
+            }
+        ]
+    },
+    "ayato": {
+        "teams": [
+            {
+                "id": "ayato-national",
+                "name": "Ayato, Bennett, Xiangling, Kazuha",
+                "rotations": 5
+            },
+            {
+                "id": "hyperbloom",
+                "name": "Ayato, Kuki Shinobu, Kazuha, Nahida",
+                "rules": [
+                    "two-targets"
+                ],
+                "rotations": 5
+            }
+        ]
+    },
+    "yaemiko": {
+        "teams": [
+            {
+                "id": "offield",
+                "name": "Tighnari, Kuki Shinobu, Yae Miko, Nahida"
+            }
+        ]
+    },
+    "itto": {
+        "teams": [
+            {
+                "id": "monogeo",
+                "name": "Itto, Zhongli, Gorou, Albedo",
+                "rotations": 5
+            },
+            {
+                "id": "geo-bennett",
+                "name": "Itto, Zhongli, Gorou, Bennett",
+                "rotations": 5
+            }
+        ]
+    },
+    "raiden": {
+        "teams": [
+            {
+                "id": "hyperbloom",
+                "name": "Raiden, Baizhu, Nahida, Xingqiu"
+            },
+            {
+                "id": "hypercarry",
+                "name": "Raiden, Bennett, Sara, Kazuha",
+                "rotations": 5
+            },
+            {
+                "id": "national",
+                "name": "Raiden, Bennett, Yelan, Xiangling"
+            }
+        ]
+    },
+    "yoimiya": {
+        "teams": [
+            {
+                "id": "vape",
+                "name": "Yoimiya, Zhongli, Bennett, Yelan"
+            }
+        ]
+    },
+    "ayaka": {
+        "teams": [
+            {
+                "id": "furina",
+                "name": "Ayaka, Charlotte, Kazuha, Furina",
+                "rotations": 4
+            },
+            {
+                "id": "freeze",
+                "name": "Ayaka, Kokomi, Shenhe, Kazuha",
+                "rotations": 5
+            },
+            {
+                "id": "melt",
+                "name": "Ayaka, Bennett, Shenhe, Xiangling",
+                "rotations": 5
+            }
+        ]
+    },
+    "kuki": {
+        "teams": [
+            {
+                "id": "hyperbloom",
+                "name": "Kuki Shinobu, Nahida, Yelan, Xingqiu"
+            }
+        ]
+    },
+    "eula": {
+        "teams": [
+            {
+                "id": "with-mika",
+                "name": "Eula, Bennett, Mika, Raiden"
+            },
+            {
+                "id": "with-rosaria",
+                "name": "Eula, Bennett, Rosaria, Raiden"
+            }
+        ]
+    },
+    "yanfei": {
+        "teams": [
+            {
+                "id": "vape",
+                "name": "Yanfei, Bennett, Yelan, Xingqiu",
+                "rotations": 5
+            }
+        ]
+    },
+    "hutao": {
+        "teams": [
+            {
+                "id": "doublehydro",
+                "name": "Hutao, Zhongli, Yelan, Xingqiu"
+            },
+            {
+                "id": "furina",
+                "name": "Hutao, Jean, Yelan, Furina"
+            }
+        ]
+    },
+    "xiao": {
+        "teams": [
+            {
+                "id": "furina",
+                "name": "Xiao, Bennett, Furina, Faruzan",
+                "rules": [
+                    "two-targets"
+                ]
+            },
+            {
+                "id": "hypercarry",
+                "name": "Xiao, Zhongli, Bennett, Faruzan",
+                "rules": [
+                    "two-targets"
+                ]
+            },
+            {
+                "id": "geores",
+                "name": "Xiao, Zhongli, Albedo, Faruzan",
+                "rules": [
+                    "two-targets"
+                ]
+            }
+        ]
+    },
+    "ganyu": {
+        "teams": [
+            {
+                "id": "burning",
+                "name": "Ganyu, Bennett, Dehya, Nahida"
+            },
+            {
+                "id": "xiangling-melt",
+                "name": "Ganyu, Bennett, Zhongli, Xiangling"
+            },
+            {
+                "id": "morgana",
+                "name": "Ganyu, Diona, Venti, Mona",
+                "rules": [
+                    "two-targets"
+                ],
+                "rotations": 6
+            },
+            {
+                "id": "nonshield-melt",
+                "name": "Ganyu, Bennett, Kazuha, Xiangling (for C6)"
+            }
+        ]
+    },
+    "albedo": {
+        "teams": [
+            {
+                "id": "monogeo",
+                "name": "Itto, Zhongli, Gorou, Albedo",
+                "rotations": 5
+            }
+        ]
+    },
+    "tartaglia": {
+        "teams": [
+            {
+                "id": "national",
+                "name": "Tartaglia, Bennett, Kazuha, Xiangling"
+            }
+        ]
+    },
+    "diluc": {
+        "teams": [
+            {
+                "id": "vape",
+                "name": "Diluc, Bennett, Yelan, Xingqiu",
+                "rotations": 6
+            }
+        ]
+    },
+    "razor": {
+        "teams": [
+            {
+                "id": "phys",
+                "name": "Razor, Zhongli, Rosaria, Fischl"
+            },
+            {
+                "id": "hyperbloom",
+                "name": "Razor, Bennett, Xingqiu, Nahida",
+                "rules": [
+                    "two-targets"
+                ]
+            }
+        ]
+    },
+    "xiangling": {
+        "teams": [
+            {
+                "id": "raiden-national",
+                "name": "Raiden, Bennett, Xingqiu, Xiangling",
+                "rotations": 5
+            }
+        ]
+    },
+    "venti": {
+        "teams": [
+            {
+                "id": "morgana",
+                "name": "Ganyu, Diona, Venti, Mona",
+                "rules": [
+                    "two-targets"
+                ],
+                "rotations": 6
+            }
+        ]
+    },
+    "ningguang": {
+        "teams": [
+            {
+                "id": "hypercarry",
+                "name": "Ningguang, Zhongli, Bennett, Albedo"
+            }
+        ]
+    },
+    "xingqiu": {
+        "teams": [
+            {
+                "id": "doublehydro",
+                "name": "Hutao, Zhongli, Yelan, Xingqiu"
+            }
+        ]
+    },
+    "klee": {
+        "teams": [
+            {
+                "id": "monopyro",
+                "name": "Klee, Bennett, Kazuha, Xiangling",
+                "rotations": 5
+            },
+            {
+                "id": "klee-national",
+                "name": "Klee, Bennett, Xiangling, Xingqiu",
+                "rotations": 5
+            }
+        ]
+    },
+    "fischl": {
+        "teams": [
+            {
+                "id": "a4fischl",
+                "name": "Fischl, Baizhu, Kazuha, Yae Miko"
+            }
+        ]
+    },
+    "noelle": {
+        "teams": [
+            {
+                "id": "furina",
+                "name": "Noelle, Furina, Gorou, Albedo"
+            },
+            {
+                "id": "monogeo",
+                "name": "Noelle, Zhongli, Gorou, Albedo"
+            }
+        ]
+    },
+    "keqing": {
+        "teams": [
+            {
+                "id": "quickswap",
+                "name": "Keqing, Kirara, Fischl, Kazuha"
+            }
+        ]
+    },
+    "kaveh": {
+        "teams": [
+            {
+                "id": "bloom",
+                "name": "Kaveh, Kokomi, Nahida, Xingqiu",
+                "rules": [
+                    "two-targets"
+                ]
+            }
+        ]
+    },
+    "lyney": {
+        "teams": [
+            {
+                "id": "monopyro",
+                "name": "Lyney, Bennett, Kazuha, Xiangling"
+            },
+            {
+                "id": "zhongli-xiangling",
+                "name": "Lyney, Zhongli, Bennett, Xiangling"
+            }
+        ]
+    },
+    "beidou": {
+        "teams": [
+            {
+                "id": "quickennahida",
+                "name": "Beidou, Kuki Shinobu, Nahida, Kazuha",
+                "rules": [
+                    "two-targets"
+                ]
+            }
+        ]
+    },
+    "heizou": {
+        "teams": [
+            {
+                "id": "hypercarry",
+                "name": "Heizou, Bennett, Yelan, Faruzan"
+            }
+        ]
+    },
+    "zhongli": {
+        "teams": [
+            {
+                "id": "physded",
+                "name": "Phys Zhongli"
+            }
+        ]
+    },
+    "qiqi": {
+        "teams": [
+            {
+                "id": "physqiqi",
+                "name": "Phys Qiqi",
+                "rules": [
+                    "qiqi"
+                ]
+            }
+        ]
+    },
+    "dehya": {
+        "teams": [
+            {
+                "id": "hypercarry",
+                "name": "Dehya, Bennett, Furina, Kazuha",
+                "rotations": 4
+            }
+        ]
+    },
+    "rosaria": {
+        "teams": [
+            {
+                "id": "melt",
+                "name": "Rosaria, Bennett, Shenhe, Xiangling",
+                "rotations": 4
+            }
+        ]
+    },
+    "neuvillette": {
+        "teams": [
+            {
+                "id": "neuvillette_hyper",
+                "name": "Neuvillette, Baizhu, Furina, Kazuha",
+                "rotations": 4
+            }
+        ]
+    },
+    "freminet": {
+        "teams": [
+            {
+                "id": "phys",
+                "name": "Freminet, Mika, Furina, Fischl",
+                "rotations": 4
+            }
+        ]
+    },
+    "furina": {
+        "teams": [
+            {
+                "id": "neuvillette_hyper",
+                "name": "Furina, Baizhu, Neuvillette, Kazuha",
+                "rotations": 4
+            }
+        ]
+    },
+    "navia": {
+        "teams": [
+            {
+                "id": "hypercarry",
+                "name": "Navia, Zhongli, Bennett, Furina",
+                "rotations": 4
+            }
+        ]
+    },
+    "wriothesley": {
+        "teams": [
+            {
+                "id": "melt",
+                "name": "Wriothesley, Bennett, Furina, Xiangling",
+                "rotations": 4
+            }
+        ]
+    }
+}
