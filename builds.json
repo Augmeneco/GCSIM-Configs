@@ -1,4 +1,13 @@
 {
+    "mualani": {
+        "teams": [
+            {
+                "id": "mualani-hyper",
+                "name": "Муалани, Шилонен, Е Лань, Сян Лин",
+                "rotations": 3
+            }
+        ]
+    },
     "alhaitham": {
         "teams": [
             {
