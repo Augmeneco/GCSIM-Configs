@@ -1,4 +1,13 @@
 {
+    "mavuika": {
+        "teams": [
+            {
+                "id": "mavuika-furina",
+                "name": "Мавуика, Беннет, Фурина, Шилонен",
+                "rotations": 4
+            }
+        ]
+    },
     "mualani": {
         "teams": [
             {
